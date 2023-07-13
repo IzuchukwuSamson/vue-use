@@ -1,22 +1,22 @@
 [
     {
         "id": 0,
-        "regNO":"20171031743",
+        "regNO":"20151033743",
         "name":"Iwuoha Samson Izuchukwu",
         "level":"500",
         "department":"ABE","courseCode":"ABE 501"},
 
         {
             "id":1,
-            "regNO": "20171029513",
+            "regNO": "20181026513",
             "name":"Nnamdi Felix Promise",
             "level":"500","department":"ABE","courseCode":"ABE 501"},
 
             {
                 "id":2,
-                "regNO": "20171033183",
+                "regNO": "20191033183",
                 "name":"Uzomah Benedict","level":500,
                 "department":"ABE","courseCode":"ABE 501"},
                 {"id":3,
-                    "regNO":"20171052073",
+                    "regNO":"20201052073",
                     "name":"Anyanwu Divinewill","level":"500","department":"ABE","courseCode":"ABE 501"}]

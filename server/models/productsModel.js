@@ -1,36 +1,27 @@
-const mongoose = require('mongoose')
-
+const mongoose = require("mongoose");
 
 const productsSchema = new mongoose.Schema({
-    productId: {
-        type: String,
-        required: true
-    },
-    name: {
-        type: String,
-        required: true
-    },
-    description: {
-        type: String,
-        required: true
-    },
-    price: {
-        type: Number,
-        required: true
-    }
-})
+  productId: {
+    type: String,
+    required: true,
+  },
+  name: {
+    type: String,
+    required: true,
+  },
+  description: {
+    type: String,
+    required: true,
+  },
+  price: {
+    type: Number,
+    required: true,
+  },
+});
 
-const Products = mongoose.model('product', productsSchema)
+const Products = mongoose.model("product", productsSchema);
 
-module.exports = Products
-
-
-
-
-
-
-
-
+module.exports = Products;
 
 // const User = require('../models/userModel')
 
@@ -42,12 +33,3 @@ module.exports = Products
 //         req.body.email
 //     })
 // }
-
-
-
-// {
-//     index: 1,
-//     id: 20171031743,
-//     name: 'Izuchukwu',
-//     dept: 'ABE',
-//   },
